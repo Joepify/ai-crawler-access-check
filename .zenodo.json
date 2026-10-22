@@ -1,0 +1,25 @@
+{
+  "title": "ai-crawler-access-check: what AI crawlers really get from a website",
+  "upload_type": "software",
+  "description": "Command-line tool (Python, no dependencies) that requests a URL with the user-agents of 17 AI and search crawlers and compares the HTTP status with robots.txt. Made by Joepify, Rotterdam: https://www.joepify.nl",
+  "creators": [
+    {
+      "name": "Assaidi, Ayoub",
+      "affiliation": "Joepify"
+    }
+  ],
+  "license": "mit",
+  "keywords": [
+    "AI crawlers",
+    "GPTBot",
+    "robots.txt",
+    "generative engine optimization"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://www.joepify.nl",
+      "relation": "isSupplementedBy",
+      "resource_type": "other"
+    }
+  ]
+}
