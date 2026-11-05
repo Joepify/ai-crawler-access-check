@@ -79,7 +79,7 @@ def main():
         rb = {True: "allow", False: "disallow", None: "?"}[r["robots_allows"]]
         flag = "  <-- blocked despite robots.txt" if r["robots_allows"] and r["http_status"] in (401, 403, 429, 503) else ""
         print(f"{r['bot']:20} {rb:11} {str(r['http_status']):6} {r['purpose']}{flag}")
-    print("\nBlocked bots that robots.txt allows usually mean a firewall/CDN/host rule. Guide (Dutch): https://www.joepify.nl/gevonden-worden-in-chatgpt")
+    print("\nBlocked bots that robots.txt allows usually mean a firewall/CDN/host rule. Checklist (Dutch): https://github.com/Joepify/geo-aeo-checklist-nl")
 
 
 if __name__ == "__main__":
